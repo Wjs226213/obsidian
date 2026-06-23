@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"f678901a2b3c4d5e","type":"group","x":-40,"y":-140,"width":1370,"height":1080,"color":"4","label":"地中海饮食油管内容结构图"},
+		{"id":"78901a2b3c4d5e6f","type":"text","text":"# 目标受众\n\n## 潜在观众\n\n- 健康意识人群\n- 慢性病患者\n- 健身爱好者\n- 美食爱好者\n- 地中海文化爱好者\n- 家庭主厨","x":1420,"y":620,"width":300,"height":200,"color":"5"},
+		{"id":"8901a2b3c4d5e6f7","type":"text","text":"# 变现方式\n\n## 收入来源\n\n- YouTube广告分成\n- 品牌赞助合作\n- 电子书/食谱销售\n- 在线课程\n- 会员专属内容\n- 厨具/食材推广","x":1420,"y":280,"width":300,"height":250,"color":"3"},
+		{"id":"b47c31f623ff3760","type":"text","text":"","x":966,"y":551,"width":250,"height":60},
+		{"id":"d4e5f678901a2b3c","type":"text","text":"# 油管频道策略\n\n## 内容规划\n\n1. **入门系列**\n   - 地中海饮食基础\n   - 必备食材清单\n   - 厨房工具准备\n\n2. **食谱系列**\n   - 早餐食谱\n   - 午餐便当\n   - 晚餐盛宴\n   - 健康零食\n\n3. **进阶内容**\n   - 季节性食谱\n   - 节日特辑\n   - 预算友好版","x":485,"y":345,"width":350,"height":470,"color":"2"},
+		{"id":"c3d4e5f678901a2b","type":"text","text":"# YouTube内容创作\n\n## 视频类型\n\n- 食谱教程\n- 食材选购指南\n- 健康科普\n- 生活方式分享\n- 科学研究解读\n- 餐厅探店","x":10,"y":423,"width":370,"height":297,"color":"6"},
+		{"id":"e5f678901a2b3c4d","type":"text","text":"# 制作与推广\n\n## 视频制作要点\n\n- 高清食材特写\n- 步骤清晰演示\n- 营养信息标注\n- 文化背景介绍\n- 实用小贴士\n\n## 推广策略\n\n- SEO优化标题\n- 吸引人的缩略图\n- 社区互动\n- 跨平台分享\n- 合作推广","x":950,"y":346,"width":350,"height":470,"color":"1"},
+		{"id":"b2c3d4e5f678901a","type":"text","text":"# 核心食材\n\n## 主要食物类别\n\n- 新鲜蔬菜水果\n- 全谷物\n- 豆类和坚果\n- 橄榄油\n- 鱼类和海鲜\n- 香草和香料","x":950,"y":-100,"width":350,"height":300,"color":"3"},
+		{"id":"a1b2c3d4e5f67890","type":"text","text":"# 健康益处\n\n## 科学研究证实\n\n- 降低心血管疾病风险\n- 预防2型糖尿病\n- 改善认知功能\n- 延长寿命\n- 控制体重\n- 抗炎效果","x":485,"y":-100,"width":400,"height":300,"color":"5"},
+		{"id":"6f0ad84f44ce9c17","type":"text","text":"# 地中海饮食\n\n## 核心理念\n\n- 以植物性食物为主\n- 适量鱼类和海鲜\n- 橄榄油为主要脂肪来源\n- 适量乳制品\n- 少量红肉\n- 适量红酒\n- 强调社交用餐","x":10,"y":-100,"width":400,"height":340,"color":"4"}
+	],
+	"edges":[
+		{"id":"0123456789abcdef","fromNode":"6f0ad84f44ce9c17","fromSide":"right","toNode":"a1b2c3d4e5f67890","toSide":"left","label":"带来"},
+		{"id":"123456789abcdef0","fromNode":"6f0ad84f44ce9c17","fromSide":"right","toNode":"b2c3d4e5f678901a","toSide":"left","label":"基于"},
+		{"id":"23456789abcdef01","fromNode":"6f0ad84f44ce9c17","fromSide":"bottom","toNode":"c3d4e5f678901a2b","toSide":"top","label":"可制作"},
+		{"id":"3456789abcdef012","fromNode":"c3d4e5f678901a2b","fromSide":"right","toNode":"d4e5f678901a2b3c","toSide":"left","label":"需要"},
+		{"id":"456789abcdef0123","fromNode":"d4e5f678901a2b3c","fromSide":"right","toNode":"e5f678901a2b3c4d","toSide":"left","label":"配合"},
+		{"id":"56789abcdef01234","fromNode":"b2c3d4e5f678901a","fromSide":"bottom","toNode":"c3d4e5f678901a2b","toSide":"top","label":"展示"},
+		{"id":"6789abcdef012345","fromNode":"a1b2c3d4e5f67890","fromSide":"bottom","toNode":"c3d4e5f678901a2b","toSide":"top","label":"科普"},
+		{"id":"789abcdef0123456","fromNode":"c3d4e5f678901a2b","fromSide":"right","toNode":"78901a2b3c4d5e6f","toSide":"left","label":"面向"},
+		{"id":"89abcdef01234567","fromNode":"e5f678901a2b3c4d","fromSide":"right","toNode":"8901a2b3c4d5e6f7","toSide":"left","label":"可实现"}
+	]
+}

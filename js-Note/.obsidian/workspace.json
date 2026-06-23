@@ -1,0 +1,287 @@
+{
+  "main": {
+    "id": "24039216af2ddb78",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a402ac94f42a43c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81b4b65db563fca1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f50e4d2cc1b18c14",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbd3781ee00502b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "239ececdc7c1566f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "b0fc2b6f7c686db4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "`",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4525732b1ff406f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 371.50271224975586
+  },
+  "right": {
+    "id": "2ce654096809d765",
+    "type": "split",
+    "children": [
+      {
+        "id": "af70ec338b07eb88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "beb40d9f9c06eccc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C语言学习文档/C语言学习笔记_排版优化_with_infinite_loops.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "C语言学习笔记_排版优化_with_infinite_loops 的反向链接列表"
+            }
+          },
+          {
+            "id": "0e952b7ce54b8134",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "db22f80d15e6ed91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8a49b3d702ad7163",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "18298e962175379c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "编写的文章/男生的自作深情.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "男生的自作深情 的大纲"
+            }
+          },
+          {
+            "id": "bf8b91d60dbf77e4",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "d7db50dea756cf3b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "db91bb2db94127fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flask Mega-Tutorial 学习笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Flask Mega-Tutorial 学习笔记"
+            }
+          },
+          {
+            "id": "822e495ff2c872c2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "claudian:Open Claudian": false
+    }
+  },
+  "active": "81b4b65db563fca1",
+  "lastOpenFiles": [
+    "C语言学习文档/C语言学习笔记_排版优化.md",
+    "编写的文章/再见.md",
+    "编写的文章/原来你也会哭么.md",
+    "运维课程.md",
+    "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
+    "程序员必须会的英语单词.md",
+    "Flask博客项目架构.canvas",
+    "Java学习路线.canvas",
+    "Linux 入门学习指南.md",
+    "README.md",
+    "pycharm 虚拟机配置.md",
+    "如何编写一份好的简历.md",
+    "Flask Mega-Tutorial/Ch02_Templates.md",
+    "templates/读书笔记模板.md",
+    "导航栏.md",
+    "地中海饮食油管结构图.canvas",
+    "交涉笔记.md",
+    "规划 - resist.md",
+    "数据分析.md",
+    "网络协议.md",
+    "英语单词.md",
+    "DeepSeek-V3.2_中文翻译.md",
+    "Flask Mega-Tutorial 学习笔记.md",
+    "Linux自动化学习路线.md",
+    "论文大纲.md",
+    "编写的文章/男生的自作深情.md",
+    "day01_运维基本导论与Linux系统部署.md",
+    "day2常见的linux命令.md",
+    "C语言学习文档/assets/C语言学习笔记_排版优化/file-20260329125413670.png",
+    "books/assets/读书笔记/file-20260507044905486.pdf",
+    "books/assets/读书笔记/file-20260507044905412.pdf",
+    "Linux自动化学习路线.md.tmp.28564.48798e238972",
+    "提升表达能力",
+    "t",
+    "未命名",
+    "C语言学习路线.canvas",
+    "assets/英语单词/file-20260521015101796.csv",
+    "assets/英语单词",
+    "数学笔记/截图题目/屏幕截图 2026-03-19 184854.png",
+    "数学笔记/截图题目/屏幕截图 2026-03-19 184457.png",
+    "英语学习/assets/发音练习/file-20260422220358354.png",
+    "英语学习/assets/发音练习/file-20260422215205636.png",
+    "英语学习/assets/发音练习/file-20260422215148028.png",
+    "ml_pipeline_flowchart.png",
+    "templates",
+    "books/assets/读书笔记",
+    "ml_pipeline_flowchart.svg",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "lib_temp/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png",
+    "lib_temp/matplotlib/mpl-data/sample_data/logo2.png"
+  ]
+}

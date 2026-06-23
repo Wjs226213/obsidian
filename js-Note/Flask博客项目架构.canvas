@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"e001group000002","type":"group","x":-80,"y":490,"width":1360,"height":280,"color":"#E67E22","label":"⚡ 后端 (Flask REST API)"},
+		{"id":"b001group000001","type":"group","x":-80,"y":-30,"width":1360,"height":250,"color":"#2ECC71","label":"🎨 前端 (Vanilla JS + HTML/CSS)"},
+		{"id":"g001group000003","type":"group","x":50,"y":820,"width":1100,"height":240,"color":"#E74C3C","label":"🗄️ 数据库 (SQLite)"},
+		{"id":"a001title000001","type":"text","text":"# Flask Blog 项目架构流程图","x":350,"y":-120,"width":500,"height":70,"color":"#4A90D9"},
+		{"id":"c001page000001","type":"text","text":"## 登录/注册页\n\n- 用户名/邮箱\n- 密码\n- JWT Token 存储","x":-50,"y":20,"width":200,"height":160,"color":"4"},
+		{"id":"c002page000002","type":"text","text":"## 首页 (Feed)\n\n- 博客文章列表\n- 分页加载\n- 搜索/筛选","x":180,"y":20,"width":200,"height":160,"color":"4"},
+		{"id":"c003page000003","type":"text","text":"## 文章详情页\n\n- 文章内容渲染\n- 评论区\n- 点赞/收藏","x":410,"y":20,"width":200,"height":160,"color":"4"},
+		{"id":"c004page000004","type":"text","text":"## 发布文章页\n\n- Markdown 编辑器\n- 标签选择\n- 图片上传","x":640,"y":20,"width":200,"height":160,"color":"4"},
+		{"id":"c005page000005","type":"text","text":"## 个人主页\n\n- 头像/简介\n- 我的文章列表\n- 粉丝/关注","x":870,"y":20,"width":200,"height":160,"color":"4"},
+		{"id":"c006page000006","type":"text","text":"## 个人设置页\n\n- 修改资料\n- 修改密码\n- 主题切换","x":1100,"y":20,"width":200,"height":160,"color":"4"},
+		{"id":"d002js0000002","type":"text","text":"### 前端路由 (Hash Router)\n- `#/` 首页\n- `#/post/:id` 详情\n- `#/user/:id` 个人主页\n- `#/create` 发布","x":860,"y":350,"width":300,"height":100,"color":"5"},
+		{"id":"f001api0000001","type":"text","text":"## 认证模块\n- `POST /api/login`\n- `POST /api/register`\n- `GET  /api/user/info`\n- JWT 中间件验证","x":-50,"y":530,"width":230,"height":200,"color":"2"},
+		{"id":"f002api0000002","type":"text","text":"## 文章模块\n- `GET    /api/posts` (列表)\n- `GET    /api/posts/:id`\n- `POST   /api/posts` (发布)\n- `PUT    /api/posts/:id` (编辑)\n- `DELETE /api/posts/:id`","x":210,"y":530,"width":230,"height":200,"color":"2"},
+		{"id":"f003api0000003","type":"text","text":"## 评论模块\n- `GET    /api/posts/:id/comments`\n- `POST   /api/posts/:id/comments`\n- `DELETE /api/comments/:id`\n- 评论嵌套回复","x":470,"y":530,"width":230,"height":200,"color":"2"},
+		{"id":"f004api0000004","type":"text","text":"## 用户模块\n- `GET  /api/users/:id`\n- `GET  /api/users/:id/posts`\n- `PUT  /api/users/:id`\n- 头像上传 `/api/upload`","x":730,"y":530,"width":230,"height":200,"color":"2"},
+		{"id":"f005api0000005","type":"text","text":"## Flask 核心配置\n- `app.py` 入口\n- `config.py` 配置\n- `extensions.py` 初始化\n- CORS / 错误处理","x":990,"y":530,"width":230,"height":200,"color":"2"},
+		{"id":"h001db0000001","type":"text","text":"## Users 表\n- `id` INTEGER PRIMARY KEY\n- `username` TEXT UNIQUE\n- `email` TEXT UNIQUE\n- `password_hash` TEXT\n- `avatar` TEXT\n- `bio` TEXT\n- `created_at` DATETIME","x":80,"y":860,"width":320,"height":160,"color":"1"},
+		{"id":"h003db0000003","type":"text","text":"## Comments 表\n- `id` INTEGER PRIMARY KEY\n- `content` TEXT\n- `post_id` INTEGER → Posts\n- `user_id` INTEGER → Users\n- `parent_id` INTEGER (回复)\n- `created_at` DATETIME","x":780,"y":860,"width":320,"height":160,"color":"1"},
+		{"id":"i001note000001","type":"text","text":"### 技术栈总结\n前端：HTML5 + CSS3 + Vanilla JS (ES6+) | 后端：Flask + Flask-CORS + Flask-JWT-Extended | 数据库：SQLite + SQLAlchemy ORM | 部署：Gunicorn + Nginx","x":-80,"y":1100,"width":1360,"height":90,"color":"6"},
+		{"id":"d001js0000001","type":"text","text":"### 前端工具模块\n- `api.js` 封装 fetch 请求\n- `auth.js` Token 管理\n- `utils.js` 日期格式化等","x":25,"y":300,"width":300,"height":100,"color":"5"},
+		{"id":"h002db0000002","type":"text","text":"## Posts 表\n- `id` INTEGER PRIMARY KEY\n- `title` TEXT\n- `content` TEXT (Markdown)\n- `author_id` INTEGER → Users\n- `views` INTEGER DEFAULT 0\n- `likes` INTEGER DEFAULT 0\n- `created_at` DATETIME","x":440,"y":860,"width":320,"height":160,"color":"1"}
+	],
+	"edges":[
+		{"id":"e0000000000001","fromNode":"c001page000001","fromSide":"bottom","toNode":"d001js0000001","toSide":"left","color":"5","label":"Token 管理"},
+		{"id":"e0000000000002","fromNode":"c002page000002","fromSide":"bottom","toNode":"d001js0000001","toSide":"top","color":"5","label":"API 调用"},
+		{"id":"e0000000000003","fromNode":"c005page000005","fromSide":"bottom","toNode":"d002js0000002","toSide":"top","color":"5","label":"路由跳转"},
+		{"id":"e0000000000004","fromNode":"c006page000006","fromSide":"bottom","toNode":"d002js0000002","toSide":"right","color":"5"},
+		{"id":"e0000000000005","fromNode":"d001js0000001","fromSide":"bottom","toNode":"f001api0000001","toSide":"top","color":"4"},
+		{"id":"e0000000000006","fromNode":"d001js0000001","fromSide":"bottom","toNode":"f002api0000002","toSide":"top","color":"4","label":"fetch 请求"},
+		{"id":"e0000000000007","fromNode":"d002js0000002","fromSide":"bottom","toNode":"f004api0000004","toSide":"top","color":"4"},
+		{"id":"e0000000000008","fromNode":"f001api0000001","fromSide":"bottom","toNode":"h001db0000001","toSide":"top","color":"1"},
+		{"id":"e0000000000009","fromNode":"f002api0000002","fromSide":"bottom","toNode":"h002db0000002","toSide":"top","color":"1","label":"SQLAlchemy ORM"},
+		{"id":"e0000000000010","fromNode":"f003api0000003","fromSide":"bottom","toNode":"h002db0000002","toSide":"top","color":"1"},
+		{"id":"e0000000000011","fromNode":"f003api0000003","fromSide":"bottom","toNode":"h003db0000003","toSide":"top","color":"1"},
+		{"id":"e0000000000012","fromNode":"f004api0000004","fromSide":"bottom","toNode":"h001db0000001","toSide":"top","color":"1"},
+		{"id":"e0000000000013","fromNode":"f005api0000005","fromSide":"bottom","toNode":"g001group000003","toSide":"top","color":"1","label":"数据库连接"},
+		{"id":"e0000000000014","fromNode":"c003page000003","fromSide":"bottom","toNode":"f002api0000002","toSide":"top","color":"4"},
+		{"id":"e0000000000015","fromNode":"c004page000004","fromSide":"bottom","toNode":"f002api0000002","toSide":"top","color":"4","label":"发布文章"},
+		{"id":"e0000000000016","fromNode":"c003page000003","fromSide":"bottom","toNode":"f003api0000003","toSide":"top","color":"4","label":"评论操作"}
+	]
+}

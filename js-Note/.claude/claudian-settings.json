@@ -1,0 +1,82 @@
+{
+  "userName": "js",
+  "enableBlocklist": true,
+  "allowExternalAccess": false,
+  "blockedCommands": {
+    "unix": [
+      "rm -rf",
+      "chmod 777",
+      "chmod -R 777"
+    ],
+    "windows": [
+      "del /s /q",
+      "rd /s /q",
+      "rmdir /s /q",
+      "format",
+      "diskpart",
+      "Remove-Item -Recurse -Force",
+      "Remove-Item -Force -Recurse",
+      "Remove-Item -r -fo",
+      "Remove-Item -fo -r",
+      "Remove-Item -Recurse",
+      "Remove-Item -r",
+      "ri -Recurse",
+      "ri -r",
+      "ri -Force",
+      "ri -fo",
+      "rm -r -fo",
+      "rm -Recurse",
+      "rm -Force",
+      "del -Recurse",
+      "del -Force",
+      "erase -Recurse",
+      "erase -Force",
+      "rd -Recurse",
+      "rmdir -Recurse",
+      "Format-Volume",
+      "Clear-Disk",
+      "Initialize-Disk",
+      "Remove-Partition"
+    ]
+  },
+  "permissionMode": "yolo",
+  "model": "deepSeek-v4-flash",
+  "thinkingBudget": "medium",
+  "effortLevel": "high",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "enableChrome": false,
+  "enableBangBash": false,
+  "enableOpus1M": false,
+  "enableSonnet1M": false,
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "allowedExportPaths": [
+    "~/Desktop",
+    "~/Downloads"
+  ],
+  "persistentExternalContextPaths": [],
+  "environmentVariables": "ANTHROPIC_BASE_URL = \"https://api.deepseek.com/anthropic\"\nANTHROPIC_MODEL = \"deepSeek-v4-flash\"",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "locale": "zh-CN",
+  "claudeCliPath": "",
+  "claudeCliPathsByHost": {
+    "LAPTOP-E3BM89E1": "C:\\Users\\wjs\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+  },
+  "loadUserClaudeSettings": true,
+  "lastClaudeModel": "haiku",
+  "lastCustomModel": "deepseek-v4-flash",
+  "lastEnvHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_MODEL=deepSeek-v4-flash",
+  "maxTabs": 3,
+  "tabBarPosition": "input",
+  "enableAutoScroll": true,
+  "openInMainTab": false,
+  "hiddenSlashCommands": []
+}

@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"g_main","type":"group","x":-50,"y":-160,"width":2000,"height":1660,"color":"4","label":"C语言完整学习路线图"},
+		{"id":"g_career","type":"group","x":0,"y":1000,"width":1340,"height":240,"color":"4","label":"职业发展方向"},
+		{"id":"g_phase1","type":"group","x":0,"y":120,"width":420,"height":480,"color":"5","label":"第一阶段：基础入门 (1-2周)"},
+		{"id":"g_phase2","type":"group","x":460,"y":120,"width":420,"height":480,"color":"3","label":"第二阶段：核心语法 (3-4周)"},
+		{"id":"g_phase3","type":"group","x":920,"y":120,"width":420,"height":480,"color":"6","label":"第三阶段：进阶概念 (4-5周)"},
+		{"id":"g_phase4","type":"group","x":0,"y":640,"width":420,"height":320,"color":"2","label":"第四阶段：算法与数据结构 (5-6周)"},
+		{"id":"g_phase5","type":"group","x":460,"y":640,"width":420,"height":320,"color":"1","label":"第五阶段：项目实践 (4-6周)"},
+		{"id":"g_phase6","type":"group","x":920,"y":640,"width":420,"height":320,"color":"5","label":"第六阶段：高级主题 (可选)"},
+		{"id":"g_tools","type":"group","x":1460,"y":460,"width":400,"height":280,"color":"3","label":"学习工具"},
+		{"id":"g_books","type":"group","x":1460,"y":800,"width":400,"height":260,"color":"6","label":"推荐书籍与资源"},
+		{"id":"n_p3_1","type":"text","text":"## 学习内容\n\n- **指针** (重中之重)\n- 结构体和联合体\n- 动态内存分配 (malloc/free)\n- 文件读写操作\n- 预处理器和宏定义","x":940,"y":160,"width":380,"height":220,"color":"6"},
+		{"id":"n_summary","type":"text","text":"**总时长**: 约4-6个月（每天2-3小时） | **三大里程碑**: 掌握指针 → 完成数据结构 → 独立开发项目 | **核心理念**: 理解原理 + 大量编码 + 项目实践 = 真正掌握C语言","x":0,"y":1280,"width":1340,"height":80,"color":"5"},
+		{"id":"n_p3_2","type":"text","text":"## 本阶段目标\n理解指针和内存模型，能用结构体组织数据，完成文件操作","x":940,"y":410,"width":380,"height":100,"color":"6"},
+		{"id":"n_title","type":"text","text":"# C语言学习路线图\n从零基础到独立开发，循序渐进掌握C语言","x":-20,"y":-60,"width":600,"height":80,"color":"4"},
+		{"id":"n_p6_1","type":"text","text":"## 扩展方向\n\n- 多线程编程 (pthread)\n- 网络编程 (Socket)\n- 图形界面 (GTK/Qt)\n- 嵌入式开发\n- 性能优化技巧","x":940,"y":680,"width":380,"height":240,"color":"5"},
+		{"id":"n_p1_1","type":"text","text":"## 学习内容\n\n- 搭建开发环境 (GCC/VS Code)\n- 编写第一个 `Hello World`\n- 理解程序结构 `main/include`\n- `printf` 和 `scanf` 输入输出\n- 注释规范和代码风格","x":20,"y":160,"width":380,"height":220,"color":"5"},
+		{"id":"n_p2_1","type":"text","text":"## 学习内容\n\n- 数据类型 (int/float/char)\n- 运算符和表达式\n- 控制结构 (if/switch/for/while)\n- 数组和字符串操作\n- 函数定义、调用和参数传递","x":480,"y":160,"width":380,"height":220,"color":"3"},
+		{"id":"n_p4_1","type":"text","text":"## 学习内容\n\n- 排序算法 (冒泡/快排/归并)\n- 搜索算法 (二分查找)\n- 线性结构 (链表/栈/队列)\n- 树结构 (二叉树/堆)\n- 算法复杂度分析 (大O表示法)","x":20,"y":680,"width":380,"height":240,"color":"2"},
+		{"id":"n_p5_1","type":"text","text":"## 实践项目\n\n1. **计算器程序** - 四则运算/科学计算\n2. **学生管理系统** - 增删改查/文件存储\n3. **小游戏** - 猜数字/井字棋/贪吃蛇\n4. **通讯录** - 结构体+文件操作综合\n5. **简易聊天室** - 网络编程入门","x":480,"y":680,"width":380,"height":240,"color":"1"},
+		{"id":"n_p2_2","type":"text","text":"## 本阶段目标\n熟练运用各种数据类型和控制结构，能用函数封装代码逻辑","x":480,"y":410,"width":380,"height":100,"color":"3"},
+		{"id":"n_p1_2","type":"text","text":"## 本阶段目标\n能独立编写简单的控制台程序，理解代码从编写到运行的完整流程","x":20,"y":410,"width":380,"height":100,"color":"5"},
+		{"id":"n_career","type":"text","text":"## 发展方向\n\n| 系统软件开发 | 嵌入式开发 | 游戏引擎开发 | 操作系统/编译器 | 物联网开发 |\n|:---:|:---:|:---:|:---:|:---:|\n| Linux应用 | 单片机/ARM | Unity底层 | 内核开发 | 传感器编程 |\n","x":20,"y":1040,"width":1300,"height":160,"color":"4"},
+		{"id":"n_keypoint","type":"text","text":"## 核心难点：指针\n\n- 画内存图辅助理解\n- 区分 `*` 和 `&` 操作符\n- 理解指针与数组的关系\n- 多写指针相关练习\n- 善用 GDB 调试观察内存","x":1460,"y":180,"width":380,"height":200,"color":"1"},
+		{"id":"n_tools","type":"text","text":"## 推荐工具\n\n- **编译器**: GCC / Clang\n- **IDE**: VS Code / CLion\n- **调试器**: GDB\n- **构建**: Make / CMake\n- **检测**: Valgrind / Cppcheck\n- **版本控制**: Git","x":1480,"y":481,"width":360,"height":199,"color":"3"},
+		{"id":"n_books","type":"text","text":"## 经典书籍\n\n- 《C Primer Plus》入门首选\n- 《C程序设计语言》K&R经典\n- 《C和指针》深入指针\n- 《C陷阱与缺陷》避坑指南\n\n## 在线资源\n- 菜鸟教程 / B站 / LeetCode","x":1480,"y":830,"width":360,"height":180,"color":"6"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"n_title","fromSide":"bottom","toNode":"g_phase1","toSide":"top","label":"开始学习"},
+		{"id":"e2","fromNode":"g_phase1","fromSide":"right","toNode":"g_phase2","toSide":"left","label":"→"},
+		{"id":"e3","fromNode":"g_phase2","fromSide":"right","toNode":"g_phase3","toSide":"left","label":"→"},
+		{"id":"e4","fromNode":"n_keypoint","fromSide":"bottom","toNode":"g_phase6","toSide":"top","label":"掌握后"},
+		{"id":"e5","fromNode":"g_phase3","fromSide":"bottom","toNode":"g_phase4","toSide":"top","label":"→"},
+		{"id":"e6","fromNode":"g_phase4","fromSide":"right","toNode":"g_phase5","toSide":"left","label":"→"},
+		{"id":"e7","fromNode":"g_phase5","fromSide":"right","toNode":"g_phase6","toSide":"left","label":"→"},
+		{"id":"e8","fromNode":"g_phase6","fromSide":"bottom","toNode":"g_career","toSide":"top","label":"职业发展"},
+		{"id":"e9","fromNode":"g_career","fromSide":"bottom","toNode":"n_summary","toSide":"top"},
+		{"id":"e10","fromNode":"g_phase3","fromSide":"right","toNode":"n_keypoint","toSide":"left","label":"重点"},
+		{"id":"80768243a92e74b9","fromNode":"g_career","fromSide":"bottom","toNode":"n_summary","toSide":"bottom"},
+		{"id":"c90f2dc7098d7f76","fromNode":"g_career","fromSide":"bottom","toNode":"n_summary","toSide":"top"}
+	]
+}
