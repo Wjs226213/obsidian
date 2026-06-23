@@ -41,7 +41,7 @@
   },
   "permissionMode": "yolo",
   "model": "deepSeek-v4-flash",
-  "thinkingBudget": "medium",
+  "thinkingBudget": "off",
   "effortLevel": "high",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
@@ -57,7 +57,7 @@
     "~/Downloads"
   ],
   "persistentExternalContextPaths": [],
-  "environmentVariables": "ANTHROPIC_BASE_URL = \"https://api.deepseek.com/anthropic\"\nANTHROPIC_MODEL = \"deepSeek-v4-flash\"",
+  "environmentVariables": "ANTHROPIC_BASE_URL = \"https://api.deepseek.com/anthropic\"\nANTHROPIC_MODEL = \"deepSeek-v4-flash\"\nANTHROPIC_AUTH_TOKEN = \"sk-cbd4138b9fc74fb094c23d506762700c\"",
   "envSnippets": [],
   "customContextLimits": {},
   "keyboardNavigation": {
