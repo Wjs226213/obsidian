@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.50271224975586
+    "width": 371.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "2ce654096809d765",
@@ -231,11 +232,12 @@
   },
   "active": "81b4b65db563fca1",
   "lastOpenFiles": [
+    "交涉笔记.md",
+    "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
     "C语言学习文档/C语言学习笔记_排版优化.md",
     "编写的文章/再见.md",
     "编写的文章/原来你也会哭么.md",
     "运维课程.md",
-    "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
     "程序员必须会的英语单词.md",
     "Flask博客项目架构.canvas",
     "Java学习路线.canvas",
@@ -247,7 +249,6 @@
     "templates/读书笔记模板.md",
     "导航栏.md",
     "地中海饮食油管结构图.canvas",
-    "交涉笔记.md",
     "规划 - resist.md",
     "数据分析.md",
     "网络协议.md",
