@@ -4,6 +4,7 @@ tags: [英语学习, TED, 中英对照]
 ---
 
 # The Mind Behind Linux — A TED Interview
+linux背后的想法，ted的一次采访
 
 **Interviewer:** Chris Anderson (CA) · **Guest:** Linus Torvalds (LT)
 
