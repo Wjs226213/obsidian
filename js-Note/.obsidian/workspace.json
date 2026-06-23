@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.50271224975586
+    "width": 371.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "2ce654096809d765",
@@ -165,23 +166,13 @@
             }
           },
           {
-            "id": "bf8b91d60dbf77e4",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
             "id": "d7db50dea756cf3b",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -207,9 +198,19 @@
               "icon": "lucide-file",
               "title": "新标签页"
             }
+          },
+          {
+            "id": "1cd10e10743bb1c9",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -225,10 +226,11 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "claudian:Open Claudian": false
+      "claudian:Open Claudian": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "bf8b91d60dbf77e4",
+  "active": "1cd10e10743bb1c9",
   "lastOpenFiles": [
     "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
     "英语学习/Linux采访.md",

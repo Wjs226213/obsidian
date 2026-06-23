@@ -1,0 +1,19 @@
+{
+  "id": "conv-1773838007392-xt2ov9kk0",
+  "title": "Acknowledge user message",
+  "titleGenerationStatus": "success",
+  "createdAt": 1773838007396,
+  "updatedAt": 1773839136438,
+  "lastResponseAt": 1773839001838,
+  "sessionId": null,
+  "sdkSessionId": "7483ab72-5da1-4c59-be8e-73310a9dfb0c",
+  "usage": {
+    "model": "deepseek-reasoner,",
+    "inputTokens": 75,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 46656,
+    "contextWindow": 200000,
+    "contextTokens": 46731,
+    "percentage": 23
+  }
+}
