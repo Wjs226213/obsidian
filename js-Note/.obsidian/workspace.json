@@ -6,6 +6,7 @@
       {
         "id": "0a402ac94f42a43c",
         "type": "tabs",
+        "dimension": 69.54887218045113,
         "children": [
           {
             "id": "81b4b65db563fca1",
@@ -19,6 +20,27 @@
               },
               "icon": "lucide-file",
               "title": "Linux采访"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1c0c525ede967458",
+        "type": "tabs",
+        "dimension": 30.451127819548873,
+        "children": [
+          {
+            "id": "a4db7b9733150a18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语学习/linux 采访中音对照版本.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "linux 采访中音对照版本"
             }
           }
         ]
@@ -214,7 +236,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 619.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,10 +253,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "1cd10e10743bb1c9",
+  "active": "81b4b65db563fca1",
   "lastOpenFiles": [
-    "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
+    "英语学习/linux 采访中音对照版本.md",
     "英语学习/Linux采访.md",
+    "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
     "交涉笔记.md",
     "C语言学习文档/C语言学习笔记_排版优化.md",
     "编写的文章/再见.md",
@@ -260,7 +284,6 @@
     "论文大纲.md",
     "编写的文章/男生的自作深情.md",
     "day01_运维基本导论与Linux系统部署.md",
-    "day2常见的linux命令.md",
     "C语言学习文档/assets/C语言学习笔记_排版优化/file-20260329125413670.png",
     "books/assets/读书笔记/file-20260507044905486.pdf",
     "books/assets/读书笔记/file-20260507044905412.pdf",
