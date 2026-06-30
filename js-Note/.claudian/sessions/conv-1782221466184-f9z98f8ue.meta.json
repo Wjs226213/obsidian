@@ -4,8 +4,8 @@
   "title": "Greet assistant in Chinese",
   "titleGenerationStatus": "success",
   "createdAt": 1782221466184,
-  "updatedAt": 1782221927138,
-  "lastResponseAt": 1782221927137,
+  "updatedAt": 1782551323510,
+  "lastResponseAt": 1782551323510,
   "sessionId": "132bc3df-92cb-492a-b710-312a8fd2ee0f",
   "providerState": {
     "providerSessionId": "132bc3df-92cb-492a-b710-312a8fd2ee0f"
@@ -13,12 +13,11 @@
   "currentNote": "英语学习/Linux采访.md",
   "usage": {
     "model": "deepSeek-v4-flash",
-    "inputTokens": 9279,
+    "inputTokens": 0,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 45312,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 54591,
-    "percentage": 27,
-    "contextWindowIsAuthoritative": true
+    "contextTokens": 0,
+    "percentage": 0
   }
 }
