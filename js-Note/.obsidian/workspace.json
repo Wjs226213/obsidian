@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "考研英语学习短文"
             }
+          },
+          {
+            "id": "a9539f4cede1bd2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "自我介绍.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "自我介绍"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,8 +237,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ba28cffd48136cbe",
+  "active": "a9539f4cede1bd2d",
   "lastOpenFiles": [
+    "自我介绍.md",
     "英语学习/考研英语学习短文.md",
     "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
     "英语学习/Linux采访.md",
@@ -252,7 +268,6 @@
     "Flask Mega-Tutorial 学习笔记.md",
     "Linux自动化学习路线.md",
     "论文大纲.md",
-    "编写的文章/男生的自作深情.md",
     "C语言学习文档/assets/C语言学习笔记_排版优化/file-20260329125413670.png",
     "books/assets/读书笔记/file-20260507044905486.pdf",
     "books/assets/读书笔记/file-20260507044905412.pdf",
