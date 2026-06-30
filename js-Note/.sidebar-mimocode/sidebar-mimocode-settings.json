@@ -1,0 +1,61 @@
+{
+  "userName": "js",
+  "permissionMode": "build",
+  "model": "mimo:openai/gpt-5.3-chat-latest",
+  "thinkingBudget": "default",
+  "effortLevel": "default",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "customModelAliases": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "requireCommandOrControlEnterToSend": false,
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "mimo": {
+      "cliPath": "",
+      "cliPathsByHost": {
+        "device:26519313-ecf4-4e16-972f-eae052349d38": "C:\\Users\\wjs\\AppData\\Roaming\\npm\\mimo.ps1"
+      },
+      "enabled": true,
+      "environmentHash": "",
+      "environmentVariables": "MIMOCODE_ENABLE_EXA=1",
+      "modelAliases": {},
+      "permissionRules": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "build",
+      "thinkingOptionsByModel": {},
+      "visibleModels": []
+    }
+  },
+  "settingsProvider": "mimo",
+  "savedProviderModel": {
+    "mimo": "mimo:openai/gpt-5.3-chat-latest"
+  },
+  "savedProviderEffort": {
+    "mimo": "default"
+  },
+  "savedProviderServiceTier": {},
+  "savedProviderThinkingBudget": {
+    "mimo": "default"
+  },
+  "savedProviderPermissionMode": {},
+  "lastCustomModel": "",
+  "maxTabs": 3,
+  "enableAutoScroll": true,
+  "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "right-sidebar",
+  "hiddenProviderCommands": {}
+}

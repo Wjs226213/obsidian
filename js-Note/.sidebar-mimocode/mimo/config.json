@@ -1,0 +1,12 @@
+{
+  "$schema": "https://mimo.ai/config.json",
+  "agent": {
+    "build": {
+      "prompt": "{file:D:\\GIthub_list\\Note\\obsidian\\js-Note\\.sidebar-mimocode\\mimo\\system.md}"
+    },
+    "plan": {
+      "prompt": "{file:D:\\GIthub_list\\Note\\obsidian\\js-Note\\.sidebar-mimocode\\mimo\\system.md}"
+    }
+  },
+  "username": "js"
+}
