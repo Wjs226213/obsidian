@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.50271224975586,
-    "collapsed": true
+    "width": 371.50271224975586
   },
   "right": {
     "id": "2ce654096809d765",
@@ -217,8 +216,6 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "realclaudian:Open Claudian": false,
-      "sidebar-mimocode:Open Sidebar MiMo-Code": false,
       "terminal:Open terminal": false
     }
   },
