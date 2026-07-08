@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4794d3d55e825890",
+        "id": "e17259fa71247923",
         "type": "tabs",
         "children": [
           {
-            "id": "ec97bdb1c2e4c7e7",
+            "id": "5d8c8176f05a98c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编写的文章/男生的自作深情.md",
+                "file": "英语学习/考研英语学习短文.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "男生的自作深情"
-            }
-          },
-          {
-            "id": "9c1e125efdbbc231",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试回答.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "面试回答"
-            }
-          },
-          {
-            "id": "798352702e59268c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "步骤.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "步骤"
+              "title": "考研英语学习短文"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.50271224975586,
-    "collapsed": true
+    "width": 371.50271224975586
   },
   "right": {
     "id": "2ce654096809d765",
@@ -249,11 +219,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9c1e125efdbbc231",
+  "active": "239ececdc7c1566f",
   "lastOpenFiles": [
+    "计算机视觉学习_",
+    "编写的文章/男生的自作深情.md",
     "步骤.md",
     "面试回答.md",
-    "编写的文章/男生的自作深情.md",
     "编写的文章/原来你也会哭么.md",
     "编写的文章/再见.md",
     "编写的文章/如何提升自己.md",
@@ -279,14 +250,12 @@
     "地中海饮食油管结构图.canvas",
     "规划 - resist.md",
     "数据分析.md",
-    "网络协议.md",
     "C语言学习文档/assets/C语言学习笔记_排版优化/file-20260329125413670.png",
     "books/assets/读书笔记/file-20260507044905486.pdf",
     "books/assets/读书笔记/file-20260507044905412.pdf",
     "Linux自动化学习路线.md.tmp.28564.48798e238972",
     "提升表达能力",
     "t",
-    "未命名",
     "C语言学习路线.canvas",
     "assets/英语单词/file-20260521015101796.csv",
     "assets/英语单词",
