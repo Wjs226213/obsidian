@@ -51,7 +51,7 @@ threshold_img = cv2.adaptiveThreshold(
     gray_img, 
     255, 
     cv2.ADAPTIVE_THRESH_GAUSSIAN_C,  # 高斯加权
-    cv2.THRESH_BINARY, 
+    cv2.THRESH_BINARY,   # 2值化
     13,  # 块大小（必须为奇数）
     9    # 偏差值C
 )
