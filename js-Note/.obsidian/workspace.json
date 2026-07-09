@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e17259fa71247923",
+        "id": "fd4c898fd666a76c",
         "type": "tabs",
         "children": [
           {
-            "id": "5d8c8176f05a98c1",
+            "id": "1b59944740428010",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语学习/考研英语学习短文.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "考研英语学习短文"
+              "title": "新标签页"
             }
           }
         ]
@@ -221,6 +217,8 @@
   },
   "active": "239ececdc7c1566f",
   "lastOpenFiles": [
+    "计算机视觉学习_/机器视觉自动定位与复位原理.md",
+    "英语学习/考研英语学习短文.md",
     "计算机视觉学习_",
     "编写的文章/男生的自作深情.md",
     "步骤.md",
@@ -229,7 +227,6 @@
     "编写的文章/再见.md",
     "编写的文章/如何提升自己.md",
     "编写的文章/你有和家人真正聊过天么.md",
-    "英语学习/考研英语学习短文.md",
     "面试流程.md",
     "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
     "英语学习/Linux采访.md",
