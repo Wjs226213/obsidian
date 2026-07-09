@@ -11,10 +11,14 @@
             "id": "1b59944740428010",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "计算机视觉学习_/机器视觉自动定位与复位原理.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "机器视觉自动定位与复位原理"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.50271224975586
+    "width": 371.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "2ce654096809d765",
@@ -215,7 +220,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "239ececdc7c1566f",
+  "active": "1b59944740428010",
   "lastOpenFiles": [
     "计算机视觉学习_/机器视觉自动定位与复位原理.md",
     "英语学习/考研英语学习短文.md",
