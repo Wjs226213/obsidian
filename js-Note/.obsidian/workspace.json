@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机视觉学习_/YOLO + MediaPipe 手部检测.md",
+                "file": "计算机视觉学习_/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "YOLO + MediaPipe 手部检测"
+              "title": "未命名"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "2ce654096809d765",
@@ -222,8 +221,9 @@
   },
   "active": "5a03cd739caf3dec",
   "lastOpenFiles": [
-    "计算机视觉学习_/YOLO MediaPipe 手部检测.md",
     "计算机视觉学习_/YOLO + MediaPipe 手部检测.md",
+    "计算机视觉学习_/未命名.md",
+    "计算机视觉学习_/YOLO MediaPipe 手部检测.md",
     "计算机视觉学习_/OpenCV 阈值处理.md",
     "计算机视觉学习_/OpenCV 图像模糊处理.md",
     "计算机视觉学习_/OpenCV 图像调整大小.md",
@@ -252,7 +252,6 @@
     "交涉笔记.md",
     "C语言学习文档/C语言学习笔记_排版优化.md",
     "运维课程.md",
-    "程序员必须会的英语单词.md",
     "Flask博客项目架构.canvas",
     "Java学习路线.canvas",
     "地中海饮食油管结构图.canvas",
