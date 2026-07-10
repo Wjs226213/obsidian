@@ -11,10 +11,14 @@
             "id": "4b6eec7e0cc9cd6d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "计算机视觉学习_/opencv系列/OpenCV颜色检测.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "OpenCV颜色检测"
             }
           }
         ]
@@ -215,21 +219,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "239ececdc7c1566f",
+  "active": "4b6eec7e0cc9cd6d",
   "lastOpenFiles": [
-    "计算机视觉学习_/yolo系列/YOLO MediaPipe 手部检测.md",
+    "计算机视觉学习_/opencv系列/OpenCV 色彩空间.md",
+    "计算机视觉学习_/opencv系列/OpenCV颜色检测.md",
+    "计算机视觉学习_/opencv系列/OpenCV 阈值处理.md",
+    "计算机视觉学习_/opencv系列/OpenCV 图像模糊处理.md",
     "计算机视觉学习_/yolo系列/YOLO + MediaPipe 手部检测.md",
+    "计算机视觉学习_/yolo系列/YOLO MediaPipe 手部检测.md",
     "计算机视觉学习_/yolo系列",
     "计算机视觉学习_/计算机视觉学习笔记索引.md",
-    "计算机视觉学习_/opencv系列/如何使用opencv检测颜色.md",
     "计算机视觉学习_/opencv系列/OpenCV 图像调整大小.md",
-    "计算机视觉学习_/opencv系列/OpenCV 色彩空间.md",
     "计算机视觉学习_/opencv系列",
     "读书笔记/认知觉醒.md",
     "计算机视觉学习_/机器视觉自动定位与复位原理.md",
     "机器学习_/CIFAR-10 + ResNet18 训练流程.md",
-    "计算机视觉学习_/opencv系列/OpenCV 阈值处理.md",
-    "计算机视觉学习_/opencv系列/OpenCV 图像模糊处理.md",
     "美好人生运营指南 6个问题.md",
     "读书笔记/assets/认知觉醒/file-20260709211022916.png",
     "读书笔记/assets/认知觉醒",
