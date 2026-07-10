@@ -1,4 +1,4 @@
-# YOLO + MediaPipe 手部检测
+ # YOLO + MediaPipe 手部检测
 
 结合 YOLO 目标检测和 MediaPipe 手部关键点检测的高性能方案。
 
