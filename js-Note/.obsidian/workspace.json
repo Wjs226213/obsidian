@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机视觉学习_/未命名.md",
+                "file": "计算机视觉学习_/如何使用opencv检测颜色.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "如何使用opencv检测颜色"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "2ce654096809d765",
@@ -222,7 +223,7 @@
   "active": "5a03cd739caf3dec",
   "lastOpenFiles": [
     "计算机视觉学习_/YOLO + MediaPipe 手部检测.md",
-    "计算机视觉学习_/未命名.md",
+    "计算机视觉学习_/如何使用opencv检测颜色.md",
     "计算机视觉学习_/YOLO MediaPipe 手部检测.md",
     "计算机视觉学习_/OpenCV 阈值处理.md",
     "计算机视觉学习_/OpenCV 图像模糊处理.md",
