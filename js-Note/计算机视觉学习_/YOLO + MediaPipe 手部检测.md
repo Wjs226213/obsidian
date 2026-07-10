@@ -72,7 +72,7 @@ def init_yolo(model_path):
 import mediapipe as mp
 
 def init_mediapipe():
-    """初始化 MediaPipe（降低精度提高速度）"""
+	    """初始化 MediaPipe（降低精度提高速度）"""
     mp_hands = mp.solutions.hands
     mp_drawing = mp.solutions.drawing_utils
     mp_drawing_styles = mp.solutions.drawing_styles
