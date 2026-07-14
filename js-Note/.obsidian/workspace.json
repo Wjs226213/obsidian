@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C语言学习文档/C语言学习笔记_排版优化_with_infinite_loops.md",
+                "file": "读书笔记/认知觉醒 - (心态中的平衡).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "C语言学习笔记_排版优化_with_infinite_loops 的反向链接列表"
+              "title": "认知觉醒 - (心态中的平衡) 的反向链接列表"
             }
           },
           {
@@ -199,8 +199,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
