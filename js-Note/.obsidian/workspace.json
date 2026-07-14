@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "91b4132cd5a25a82",
+        "id": "119f6485e4162024",
         "type": "tabs",
         "children": [
           {
-            "id": "4b6eec7e0cc9cd6d",
+            "id": "0d1dcfc898bdf3e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -220,8 +220,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4b6eec7e0cc9cd6d",
+  "active": "0d1dcfc898bdf3e2",
   "lastOpenFiles": [
+    "读书笔记/认知觉醒.md",
     "计算机视觉学习_/opencv系列/OpenCV 色彩空间.md",
     "未命名 1.base",
     "未命名.base",
@@ -234,7 +235,6 @@
     "计算机视觉学习_/计算机视觉学习笔记索引.md",
     "计算机视觉学习_/opencv系列/OpenCV 图像调整大小.md",
     "计算机视觉学习_/opencv系列",
-    "读书笔记/认知觉醒.md",
     "计算机视觉学习_/机器视觉自动定位与复位原理.md",
     "机器学习_/CIFAR-10 + ResNet18 训练流程.md",
     "美好人生运营指南 6个问题.md",
