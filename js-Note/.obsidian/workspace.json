@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机视觉学习_/opencv系列/OpenCV颜色检测.md",
+                "file": "计算机视觉学习_/opencv系列/OpenCV 色彩空间.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OpenCV颜色检测"
+              "title": "OpenCV 色彩空间"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "2ce654096809d765",
@@ -222,8 +221,10 @@
   },
   "active": "4b6eec7e0cc9cd6d",
   "lastOpenFiles": [
-    "计算机视觉学习_/opencv系列/OpenCV 色彩空间.md",
+    "未命名 1.base",
+    "未命名.base",
     "计算机视觉学习_/opencv系列/OpenCV颜色检测.md",
+    "计算机视觉学习_/opencv系列/OpenCV 色彩空间.md",
     "计算机视觉学习_/opencv系列/OpenCV 阈值处理.md",
     "计算机视觉学习_/opencv系列/OpenCV 图像模糊处理.md",
     "计算机视觉学习_/yolo系列/YOLO + MediaPipe 手部检测.md",
@@ -261,7 +262,6 @@
     "books/assets/读书笔记/file-20260507044905486.pdf",
     "books/assets/读书笔记/file-20260507044905412.pdf",
     "Linux自动化学习路线.md.tmp.28564.48798e238972",
-    "提升表达能力",
     "C语言学习路线.canvas",
     "数学笔记/截图题目/屏幕截图 2026-03-19 184854.png",
     "数学笔记/截图题目/屏幕截图 2026-03-19 184457.png",
