@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "读书笔记/认知觉醒 - (心态中的平衡).md",
+                "file": "读书笔记/认知觉醒 - (心态中的平衡) - 想与做.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "认知觉醒 - (心态中的平衡)"
+              "title": "认知觉醒 - (心态中的平衡) - 想与做"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/认知觉醒 - (心态中的平衡).md",
+                "file": "读书笔记/认知觉醒 - (心态中的平衡) - 想与做.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "认知觉醒 - (心态中的平衡) 的反向链接列表"
+              "title": "认知觉醒 - (心态中的平衡) - 想与做 的反向链接列表"
             }
           },
           {
@@ -221,11 +221,12 @@
   },
   "active": "0d1dcfc898bdf3e2",
   "lastOpenFiles": [
+    "读书笔记/assets/认知觉醒 - (心态中的平衡) - 想与做",
     "机器学习_/CIFAR-10 + ResNet18 训练流程.md",
     "日记模板/好久内有写日记了现在是2026年7月15日.md",
     "日记模板/26 - 4-11.md",
     "日记模板/日记模板.md",
-    "读书笔记/认知觉醒 - (心态中的平衡).md",
+    "读书笔记/认知觉醒 - (心态中的平衡) - 想与做.md",
     "读书笔记/assets/认知觉醒 - (心态中的平衡)",
     "计算机视觉学习_/opencv系列/OpenCV 色彩空间.md",
     "未命名 1.base",
@@ -241,7 +242,7 @@
     "计算机视觉学习_/opencv系列",
     "计算机视觉学习_/机器视觉自动定位与复位原理.md",
     "美好人生运营指南 6个问题.md",
-    "读书笔记/assets/认知觉醒 - (心态中的平衡)/file-20260714214608568.png",
+    "读书笔记/assets/认知觉醒 - (心态中的平衡) - 想与做/file-20260715220424884.png",
     "读书笔记/assets/认知觉醒",
     "读书笔记/assets",
     "读书笔记",
@@ -256,7 +257,6 @@
     "编写的文章/你有和家人真正聊过天么.md",
     "面试流程.md",
     "英语学习/阅读是学习中最重要的技能之一 (reading is one of the most important skills for English learning).md",
-    "英语学习/Linux采访.md",
     "Flask博客项目架构.canvas",
     "Java学习路线.canvas",
     "地中海饮食油管结构图.canvas",
