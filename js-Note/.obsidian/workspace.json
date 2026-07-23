@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "119f6485e4162024",
+        "id": "59c77fe527c85a29",
         "type": "tabs",
         "children": [
           {
-            "id": "aa6475b04e3b4ea7",
+            "id": "222beb63ed8ec7dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "日记模板/2026 - 07 - 19.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026 - 07 - 19"
-            }
-          },
-          {
-            "id": "aeaf073e0b4c1012",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "机器视觉的学习阶段的思考 ds回答篇幅.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "机器视觉的学习阶段的思考 ds回答篇幅"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "2ce654096809d765",
@@ -233,7 +215,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "aeaf073e0b4c1012",
+  "active": "222beb63ed8ec7dd",
   "lastOpenFiles": [
     "日记模板/2026 - 07 - 19.md",
     "机器视觉的学习阶段的思考 ds回答篇幅.md",
