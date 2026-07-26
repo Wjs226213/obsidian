@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机视觉学习_/opencv系列/基本图片分类器 sklearn_image.md",
+                "file": "计算机视觉学习_/opencv系列/CNRPark 停车场数据集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基本图片分类器 sklearn_image"
+              "title": "CNRPark 停车场数据集"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "2ce654096809d765",
@@ -220,11 +221,11 @@
   },
   "active": "8852112c11cfe0c6",
   "lastOpenFiles": [
+    "计算机视觉学习_/opencv系列/基本图片分类器 sklearn_image.md",
     "计算机视觉学习_/opencv系列/CNRPark 停车场数据集.md",
     "计算机视觉学习_/opencv系列/Tesseract OCR 文本检测.md",
     "Linux 入门学习指南.md",
     "网络协议.md",
-    "计算机视觉学习_/opencv系列/基本图片分类器 sklearn_image.md",
     "计算机视觉学习_/opencv系列/MediaPipe 人脸检测与模糊.md",
     "计算机视觉学习_/opencv系列/OpenCV 轮廓处理.md",
     "计算机视觉学习_/opencv系列/OpenCV 边缘检测.md",
