@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机视觉学习_/opencv系列/Tesseract OCR 文本检测.md",
+                "file": "计算机视觉学习_/opencv系列/基本图片分类器 sklearn_image.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tesseract OCR 文本检测"
+              "title": "基本图片分类器 sklearn_image"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "2ce654096809d765",
@@ -221,10 +220,11 @@
   },
   "active": "8852112c11cfe0c6",
   "lastOpenFiles": [
+    "计算机视觉学习_/opencv系列/CNRPark 停车场数据集.md",
+    "计算机视觉学习_/opencv系列/Tesseract OCR 文本检测.md",
     "Linux 入门学习指南.md",
     "网络协议.md",
     "计算机视觉学习_/opencv系列/基本图片分类器 sklearn_image.md",
-    "计算机视觉学习_/opencv系列/Tesseract OCR 文本检测.md",
     "计算机视觉学习_/opencv系列/MediaPipe 人脸检测与模糊.md",
     "计算机视觉学习_/opencv系列/OpenCV 轮廓处理.md",
     "计算机视觉学习_/opencv系列/OpenCV 边缘检测.md",
@@ -246,7 +246,6 @@
     "计算机视觉学习_/opencv系列/OpenCV 图像调整大小.md",
     "计算机视觉学习_/opencv系列/OpenCV 色彩空间.md",
     "机器学习_/CIFAR-10 + ResNet18 训练流程.md",
-    "编写的文章/再见.md",
     "未命名 2",
     "未命名 1",
     "未命名",
