@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络协议.md",
+                "file": "计算机视觉学习_/opencv系列/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "网络协议"
+              "title": "未命名"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "2ce654096809d765",
@@ -236,6 +235,8 @@
   },
   "active": "62eed6153a45cd05",
   "lastOpenFiles": [
+    "网络协议.md",
+    "计算机视觉学习_/opencv系列/未命名.md",
     "Linux 入门学习指南.md",
     "导航栏.md",
     "程序员必须会的英语单词.md",
@@ -261,8 +262,6 @@
     "机器视觉的学习阶段的思考 ds回答篇幅.md",
     "未命名 2",
     "读书笔记/认知觉醒 - (心态中的平衡) - 想与做.md",
-    "步骤.md",
-    "templates/读书笔记模板.md",
     "未命名 1",
     "未命名",
     "读书笔记/assets/认知觉醒 - (心态中的平衡) - 想与做",
