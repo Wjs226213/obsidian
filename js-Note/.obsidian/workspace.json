@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机视觉学习_/opencv系列/未命名.md",
+                "file": "计算机视觉学习_/opencv系列/基本图片分类器 sklearn_image.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "基本图片分类器 sklearn_image"
             }
           }
         ],
@@ -236,7 +236,7 @@
   "active": "62eed6153a45cd05",
   "lastOpenFiles": [
     "网络协议.md",
-    "计算机视觉学习_/opencv系列/未命名.md",
+    "计算机视觉学习_/opencv系列/基本图片分类器 sklearn_image.md",
     "Linux 入门学习指南.md",
     "导航栏.md",
     "程序员必须会的英语单词.md",
