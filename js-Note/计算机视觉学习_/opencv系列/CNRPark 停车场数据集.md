@@ -147,6 +147,8 @@ PATCHES/
 - 设计了轻量级 mAlexNet 架构，适合智能摄像头部署
 - 在 CNRPark+EXT 和 PKLot 数据集上验证
 
+---
+
 ### 论文 2: Car parking occupancy detection using smart camera networks and deep learning
 
 ```bibtex
