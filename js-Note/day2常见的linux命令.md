@@ -405,16 +405,14 @@ which vim
 
 默认 which 只显示 **第一个** 匹配到的命令
 
-**-a** 显示系统中**所有同名命令**
+**-a** 显示系统中**所有同名命令比如说电脑中安装了好几个python版本**
 
 ```Plain
 which -a python
 which -a node
 which -a java
 ```
-
-适用场景：电脑装了多个版本 Python/Java，用来排查到底用的是哪一个。
-
+ 
 ## 五、核心工作原理（必须懂）
 
 which 只会在系统的 **PATH 环境变量** 目录里搜索。
