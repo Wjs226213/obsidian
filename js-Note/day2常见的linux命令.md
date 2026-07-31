@@ -186,9 +186,177 @@ find -exec{} 查找到某些文件后完成执行其他的命令
 find  -type d -name "temp" -exec rm -rf {} \;
 ```
 
-## grep操作
- 
- 
+## grep 学习笔记
+
+**grep = 文本搜索工具**
+
+作用：从文件、命令输出中 **筛选出包含指定关键词的行**。
+
+核心场景：查日志、查配置、查进程、筛选输出。
+
+语法：
+
+```Plain
+grep [参数] "关键词" 文件名
+命令 | grep [参数] "关键词"
+```
+
+## 二、最常用 6 个参数（必会）
+
+### 1. -i 忽略大小写
+
+不区分大小写匹配
+
+```Plain
+grep -i "error" log.txt
+```
+
+### 2. -n 显示行号
+
+查看匹配内容在文件第几行
+
+```Plain
+grep -n "Port" /etc/ssh/sshd_config
+```
+
+### 3. -v 反向匹配（排除）
+
+显示 **不包含** 关键词的行
+
+```Plain
+# 过滤掉grep自身进程
+ps -ef | grep ssh | grep -v grep
+```
+
+### 4. -c 只统计匹配行数
+
+```Plain
+grep -c "warn" log.txt
+```
+
+### 5. -r 递归搜索文件夹
+
+查找目录下所有文件包含某关键词
+
+```Plain
+grep -r "Port" /etc/ssh/
+```
+
+### 6. -A -B -C 上下文查看（查日志神器）
+
+- **-A n**：匹配行 + 后面n行（After）
+    
+- **-B n**：匹配行 + 前面n行（Before）
+    
+- **-C n**：前后各n行
+    
+
+```Plain
+grep -C 3 "error" app.log
+```
+
+---
+
+## 三、解决你刚才遇到的经典问题
+
+### 问题：ps | grep 总会搜到自己
+
+```Plain
+wjs  1518 1406 0 grep --color=auto ssh
+```
+
+原因：grep 本身也是一个进程，会被自己搜到。
+
+**两种正确写法（生产常用）**
+
+```Plain
+# 写法1：正则规避（最优雅）
+ps -ef | grep [s]sh
+
+# 写法2：反向过滤grep自身
+ps -ef | grep ssh | grep -v grep
+```
+
+---
+
+## 四、grep 正则基础（够用90%场景）
+
+### 1. ^ 行首匹配
+
+只匹配**以关键词开头**的行
+
+```Plain
+grep "^Port" /etc/ssh/sshd_config
+```
+
+### 2. $ 行尾匹配
+
+只匹配**以关键词结尾**的行
+
+```Plain
+grep "bash$" /etc/passwd
+```
+
+### 3. -E 多关键词匹配（或）
+
+```Plain
+grep -E "error|warn|fail" log.txt
+```
+
+---
+
+## 五、工作高频实战命令（直接抄）
+
+**1. 查看是否存在某进程**
+
+```Plain
+ps -ef | grep [s]shd
+```
+
+**2. 查找配置文件有效配置（排除注释、空行）**
+
+```Plain
+grep -v "^#" /etc/ssh/sshd_config | grep -v "^$"
+```
+
+**3. 搜索日志错误并查看上下文**
+
+```Plain
+grep -C 5 "Exception" app.log
+```
+
+**4. 统计报错次数**
+
+```Plain
+grep -c "error" app.log
+```
+
+---
+
+## 六、grep 速记口诀
+
+- **-i** 忽略大小写
+    
+- **-n** 显示行号
+    
+- **-v** 反向过滤
+    
+- **-r** 递归查找
+    
+- **-C** 查看上下文
+    
+- **[s]关键词** 过滤自身进程
+    
+
+---
+
+## 七、新手常见误区
+
+1. **不要直接 grep ssh** 查进程，会自带 grep 垃圾进程
+
+2. 配置文件大量 # 注释，用 **grep -v "^#"** 清理
+
+3. 查日志一定要带**-A / -B / -C**，否则看不出上下文原因
 
 
 
