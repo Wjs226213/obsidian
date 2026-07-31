@@ -271,9 +271,9 @@ grep -C 3 "error" app.log
 
 ```Plain
 wjs  1518 1406 0 grep --color=auto ssh
-```
 
-原因：grep 本身也是一个进程，会被自己搜到。
+原因：grep 本身也是一个进程，会被自己搜到
+```。
 
 **两种正确写法（生产常用）**
 
@@ -368,3 +368,130 @@ grep -c "error" app.log
 
 
 
+## which 命令查找 
+
+**which：查找命令的真实安装路径（绝对路径）**
+
+用来查看：你输入的命令，到底执行的是硬盘里哪一个程序文件。
+
+核心用途：**判断命令是否存在、区分多版本、排查环境变量问题**
+
+## 二、语法格式
+
+```Plain
+which 命令名
+which -a 命令名
+```
+
+## 三、最常用示例
+
+```Plain
+which ssh
+which grep
+which python
+which ls
+which vim
+```
+
+输出示例：
+
+```Plain
+/usr/bin/ssh
+```
+
+含义：你执行 ssh，实际运行的是 **/usr/bin/ssh** 这个程序。
+
+## 四、唯一常用参数：-a（重点）
+
+默认 which 只显示 **第一个** 匹配到的命令
+
+**-a** 显示系统中**所有同名命令**
+
+```Plain
+which -a python
+which -a node
+which -a java
+```
+
+适用场景：电脑装了多个版本 Python/Java，用来排查到底用的是哪一个。
+
+## 五、核心工作原理（必须懂）
+
+which 只会在系统的 **PATH 环境变量** 目录里搜索。
+
+执行命令顺序：
+
+PATH 目录从前到后 → 找到第一个匹配程序 → 返回路径
+
+查看PATH：
+
+```Plain
+echo $PATH
+```
+
+## 六、最重要的特性（新手必踩坑）
+
+### 1. which 找不到【Shell 内置命令】
+
+cd、pwd、exit、umask、history 属于 shell 自带，不是外部程序
+
+所以：**which cd 空白无输出，是正常现象**
+
+```Plain
+which cd
+which pwd
+which exit
+```
+
+无输出 = 内置命令，不是故障。
+
+### 2. 找不到别名
+
+如果你设置了别名 ll、la，which 也识别不到
+
+## 七、which、whereis、find 三者区别（必考）
+
+- **which**：最快，只找可执行命令（PATH）
+    
+- **whereis**：找命令、帮助文档、源码位置
+    
+- **find**：全盘搜索任意文件（最慢）
+    
+
+```Plain
+which ssh
+whereis ssh
+find / -name "ssh" 2>/dev/null
+```
+
+## 八、工作中最常用场景
+
+### 场景1：检查软件是否安装
+
+```Plain
+which python3
+which docker
+which nginx
+```
+
+有路径 = 已安装；无输出 = 未安装/不在PATH
+
+### 场景2：排查多版本冲突
+
+```Plain
+which -a python
+```
+
+### 场景3：确认当前执行的程序路径
+
+用于排查：为什么改了配置不生效、到底启动的是哪个程序
+
+## 九、一句话终极总结
+
+- **which** = 查命令路径
+    
+- **which -a** = 查所有同名命令路径
+    
+- 内置命令 cd/pwd 查不到是正常
+    
+- 只搜 PATH 路径，速度最快
