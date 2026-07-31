@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记模板/2026年7月29日.md",
+                "file": "day2常见的linux命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026年7月29日"
+              "title": "day2常见的linux命令"
             }
           }
         ]
@@ -221,21 +221,24 @@
   },
   "active": "8852112c11cfe0c6",
   "lastOpenFiles": [
-    "日记模板/好久内有写日记了现在是2026年7月15日.md",
+    "Linux 入门学习指南.md",
+    "day01_运维基本导论与Linux系统部署.md",
+    "网络协议.md",
+    "导航栏.md",
+    "英语学习/考研英语学习短文.md",
+    "英语学习/Linux采访.md",
+    "英语学习/linux 采访中音对照版本.md",
     "日记模板/2026年7月29日.md",
+    "日记模板/好久内有写日记了现在是2026年7月15日.md",
     "计算机视觉学习_/opencv系列/CNRPark 停车场数据集.md",
     "面试 -.md",
     "计算机视觉学习_/opencv系列/基本图片分类器 sklearn_image.md",
     "计算机视觉学习_/opencv系列/Tesseract OCR 文本检测.md",
-    "Linux 入门学习指南.md",
-    "网络协议.md",
     "计算机视觉学习_/opencv系列/MediaPipe 人脸检测与模糊.md",
     "计算机视觉学习_/opencv系列/OpenCV 轮廓处理.md",
     "计算机视觉学习_/opencv系列/OpenCV 边缘检测.md",
     "计算机视觉学习_/opencv系列/OpenCV 图片绘制.md",
-    "导航栏.md",
     "程序员必须会的英语单词.md",
-    "英语学习/考研英语学习短文.md",
     "未命名/会议纪要.md",
     "日记模板/日记模板.md",
     "日记模板/26 - 4-11.md",
@@ -244,9 +247,6 @@
     "编写的文章/辜负后的反噬.md",
     "学习的内容.md",
     "计算机视觉学习_/opencv系列/OpenCV颜色检测.md",
-    "计算机视觉学习_/opencv系列/OpenCV 阈值处理.md",
-    "计算机视觉学习_/opencv系列/OpenCV 图像模糊处理.md",
-    "计算机视觉学习_/opencv系列/OpenCV 图像调整大小.md",
     "未命名 2",
     "未命名 1",
     "未命名",

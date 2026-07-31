@@ -186,8 +186,9 @@ find -exec{} 查找到某些文件后完成执行其他的命令
 find  -type d -name "temp" -exec rm -rf {} \;
 ```
 
-
-
+## grep操作
+ 
+ 
 
 
 
