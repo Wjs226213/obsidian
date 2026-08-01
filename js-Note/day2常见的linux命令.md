@@ -533,3 +533,7 @@ which -a python
 tar -zcvf hg2.tar.zg *.txt*
 ```
 
+*尝试将文件解压到某个文件夹当中
+```code
+ tar -xf hg.txt -C ./
+ ``` 
