@@ -503,8 +503,10 @@ which -a python
 
 ##  打包tar命令
 
- 就打包不压缩
+ *打包不压缩*
  ```code
- 
+  # create view file 
+  tar -cvf hg.txt *.txt
+  
  ```
  
