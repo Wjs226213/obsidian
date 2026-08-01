@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/认知觉醒 - (心态中的平衡) - 想与做.md",
+                "file": "day2常见的linux命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "认知觉醒 - (心态中的平衡) - 想与做 的反向链接列表"
+              "title": "day2常见的linux命令 的反向链接列表"
             }
           },
           {
@@ -198,13 +198,23 @@
               "icon": "lucide-file",
               "title": "新标签页"
             }
+          },
+          {
+            "id": "23a6c566ba70f5e4",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 482.5,
-    "collapsed": true
+    "width": 482.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,11 +226,14 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "8852112c11cfe0c6",
+  "active": "23a6c566ba70f5e4",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "CLAUDE.md.tmp.1816.69c3f9466dcc",
     "Linux 入门学习指南.md",
     "day01_运维基本导论与Linux系统部署.md",
     "网络协议.md",
@@ -246,7 +259,6 @@
     "编写的文章/你有和家人真正聊过天么.md",
     "编写的文章/辜负后的反噬.md",
     "学习的内容.md",
-    "计算机视觉学习_/opencv系列/OpenCV颜色检测.md",
     "未命名 2",
     "未命名 1",
     "未命名",
@@ -257,7 +269,6 @@
     "计算机视觉学习_/yolo系列",
     "计算机视觉学习_/opencv系列",
     "读书笔记/assets/认知觉醒 - (心态中的平衡) - 想与做/file-20260715220424884.png",
-    "读书笔记/assets/认知觉醒",
     "Flask博客项目架构.canvas",
     "Java学习路线.canvas",
     "地中海饮食油管结构图.canvas",

@@ -1,7 +1,7 @@
 {
   "userName": "js",
   "permissionMode": "yolo",
-  "model": "claude-code/deepSeek-v4-flash",
+  "model": "claude-code/mimo-v2.5",
   "thinkingBudget": "off",
   "effortLevel": "low",
   "serviceTier": "default",
@@ -32,12 +32,12 @@
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
-      "enableOpus1M": false,
-      "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL = \"https://api.deepseek.com/anthropic\"\nANTHROPIC_MODEL = \"deepSeek-v4-flash\"\nANTHROPIC_AUTH_TOKEN = \"sk-cbd4138b9fc74fb094c23d506762700c\"",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_MODEL=deepSeek-v4-flash"
+      "modelEnvironmentType": "model",
+      "titleModelEnvironmentType": "",
+      "environmentVariables": "ANTHROPIC_BASE_URL = \"https://api.xiaomimimo.com/anthropic\"\nANTHROPIC_MODEL = \"mimo-v2.5\"\nANTHROPIC_AUTH_TOKEN =\"sk-cx8s34vwo7n1j79mm5l07228ib6x3tfkqdtzz17rxf96p0x0\"",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.xiaomimimo.com/anthropic|ANTHROPIC_MODEL=mimo-v2.5"
     },
     "codex": {
       "enabled": false,
@@ -51,7 +51,12 @@
       "installationMethodsByHost": {
         "device:32443009-561e-4bc6-a723-44b4a2e67e24": "native-windows"
       },
-      "wslDistroOverridesByHost": {}
+      "wslDistroOverridesByHost": {},
+      "discoveredModels": [],
+      "modelAliases": {},
+      "visibleModels": null,
+      "catalogTimestamp": 0,
+      "catalogFingerprint": ""
     },
     "opencode": {
       "cliPath": "",
@@ -76,11 +81,23 @@
       "preferredThinkingByModel": {},
       "toolMode": "all",
       "visibleModels": []
+    },
+    "grok": {
+      "catalogsByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "planBasePermissionMode": "normal",
+      "preferredReasoningByModel": {},
+      "visibleModels": null
     }
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "claude-code/deepSeek-v4-flash"
+    "claude": "claude-code/mimo-v2.5"
   },
   "savedProviderEffort": {
     "claude": "low"
@@ -90,6 +107,7 @@
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
+  "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "claude-code/deepSeek-v4-flash",
   "maxTabs": 3,
   "enableAutoScroll": true,

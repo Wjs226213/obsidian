@@ -1,23 +1,24 @@
 {
   "id": "conv-1782221466184-f9z98f8ue",
   "providerId": "claude",
-  "title": "Greet assistant in Chinese",
-  "titleGenerationStatus": "success",
+  "title": "你好",
+  "titleGenerationStatus": "failed",
   "createdAt": 1782221466184,
-  "updatedAt": 1782789557831,
-  "lastResponseAt": 1782551323510,
-  "sessionId": "132bc3df-92cb-492a-b710-312a8fd2ee0f",
+  "updatedAt": 1785578574471,
+  "lastResponseAt": 1785578574471,
+  "sessionId": "befe4563-b079-4c83-a59f-c2680826122c",
   "providerState": {
-    "providerSessionId": "132bc3df-92cb-492a-b710-312a8fd2ee0f"
+    "providerSessionId": "befe4563-b079-4c83-a59f-c2680826122c"
   },
   "currentNote": "英语学习/Linux采访.md",
   "usage": {
-    "model": "deepSeek-v4-flash",
-    "inputTokens": 0,
+    "model": "mimo-v2.5",
+    "inputTokens": 1687,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
+    "cacheReadInputTokens": 49088,
     "contextWindow": 200000,
-    "contextTokens": 0,
-    "percentage": 0
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 50775,
+    "percentage": 25
   }
 }
