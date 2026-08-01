@@ -536,4 +536,9 @@ tar -zcvf hg2.tar.zg *.txt*
 *尝试将文件解压到某个文件夹当中
 ```code
  tar -xvf hg.tar.gz -C ./
- ``` 
+```  
+
+**zip格式**
+``` bash
+sudo apt update && apt install unzip -y # 直接解压当前目录 unzip html_template.zip # 解压到指定文件夹 temp unzip html_template.zip -d ./temp
+```
