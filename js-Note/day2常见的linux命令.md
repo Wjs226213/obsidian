@@ -503,4 +503,8 @@ which -a python
 
 ##  打包tar命令
 
+ 就打包不压缩
+ ```code
+ 
+ ```
  
