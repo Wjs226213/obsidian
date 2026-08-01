@@ -506,7 +506,11 @@ which -a python
  *打包不压缩*
  ```code
   # create view file new_tar_file_name Match iterms
-  tar -cvf hg.txt *.txt
-  
+  tar -cvf hg.txt *.txt  
  ```
+ 
+ *打包压缩*
+```code
+tar -zcvf hg2.tar.zg *.txt*
+```
  
