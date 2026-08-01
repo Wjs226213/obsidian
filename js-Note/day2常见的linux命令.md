@@ -539,6 +539,7 @@ tar -zcvf hg2.tar.zg *.txt*
 ```  
 
 **zip格式**
+首先是解压
 ``` bash
 sudo apt update && apt install unzip -y 
 # 直接解压当前目录 
@@ -546,3 +547,12 @@ unzip html_template.zip
 # 解压到指定文件夹 
 unzip html_template.zip -d ./temp
 ```
+
+其次是压缩
+```code
+# 首先是打包单个文件
+zip test.zip file.txt original_file.txt
+
+# 其次是打包一整个目录
+zip -r all_flod.zip all_flod
+
