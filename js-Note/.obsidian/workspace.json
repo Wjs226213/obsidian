@@ -214,10 +214,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 482.5
+    "width": 482.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "realclaudian:Open Claudian": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -226,11 +228,10 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false,
-      "realclaudian:Open Claudian": false
+      "terminal:Open terminal": false
     }
   },
-  "active": "23a6c566ba70f5e4",
+  "active": "8852112c11cfe0c6",
   "lastOpenFiles": [
     "CLAUDE.md",
     "CLAUDE.md.tmp.1816.69c3f9466dcc",
