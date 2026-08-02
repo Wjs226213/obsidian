@@ -4,8 +4,8 @@
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1782221466184,
-  "updatedAt": 1785647008442,
-  "lastResponseAt": 1785647008442,
+  "updatedAt": 1785647219376,
+  "lastResponseAt": 1785647219376,
   "sessionId": "befe4563-b079-4c83-a59f-c2680826122c",
   "providerState": {
     "providerSessionId": "befe4563-b079-4c83-a59f-c2680826122c"
@@ -13,12 +13,12 @@
   "currentNote": "英语学习/Linux采访.md",
   "usage": {
     "model": "mimo-v2.5",
-    "inputTokens": 4347,
+    "inputTokens": 738,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 66752,
+    "cacheReadInputTokens": 73920,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 71099,
-    "percentage": 36
+    "contextTokens": 74658,
+    "percentage": 37
   }
 }
