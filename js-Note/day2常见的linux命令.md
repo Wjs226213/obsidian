@@ -476,7 +476,7 @@ which docker
 	
 	### 场景2：排查多版本冲突
 	
-	```Plain
+```Plain
 	which -a python
 	```
 	
@@ -525,7 +525,7 @@ which docker
  ```code
   # create view file new_tar_file_name Match iterms
   tar -cvf hg.txt *.txt  
- ```
+```
  
  *打包压缩*
 ```code
@@ -557,3 +557,4 @@ zip test.zip file.txt original_file.txt
 zip -r all_flod.zip all_flod
 ```
 
+##
