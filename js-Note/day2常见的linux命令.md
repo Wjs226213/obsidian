@@ -489,7 +489,7 @@ which docker
 	- **which** = 查命令路径
 	    
 	- **which -a** = 查所有同名命令路径
-	    
+		    
 	- 内置命令 cd/pwd 查不到是正常
 	    
 	- 只搜 PATH 路径，速度最快
