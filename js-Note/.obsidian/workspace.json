@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据分析/Mysql 数据库学习笔记.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mysql 数据库学习笔记"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "2ce654096809d765",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据分析/Mysql 数据库学习笔记.md",
+                "file": "CLAUDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Mysql 数据库学习笔记 的反向链接列表"
+              "title": "CLAUDE 的反向链接列表"
             }
           },
           {
@@ -115,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据分析/Mysql 数据库学习笔记.md",
+                "file": "CLAUDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Mysql 数据库学习笔记 的出链列表"
+              "title": "CLAUDE 的出链列表"
             }
           },
           {
@@ -158,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据分析/Mysql 数据库学习笔记.md",
+                "file": "CLAUDE.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Mysql 数据库学习笔记 的大纲"
+              "title": "CLAUDE 的大纲"
             }
           },
           {
@@ -228,19 +227,20 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "23a6c566ba70f5e4",
+  "active": "2dd1e74f6ef274bd",
   "lastOpenFiles": [
+    "数据分析/Mysql 数据库学习笔记.md",
+    "CLAUDE.md",
+    "CLAUDE.md.tmp.1816.5f22a7e7d5c4",
     "运维知识点/day2常见的linux命令.md",
     "运维知识点/Linux 入门学习指南.md",
     "计算机视觉学习_/opencv系列/OpenCV 色彩空间.md",
     "计算机视觉学习_/opencv系列/MediaPipe 人脸检测与模糊.md",
     "计算机视觉学习_/opencv系列/CNRPark 停车场数据集.md",
     "计算机视觉学习_/opencv系列/基本图片分类器 sklearn_image.md",
-    "数据分析/Mysql 数据库学习笔记.md",
     "templates/读书笔记模板.md",
     "数据分析",
     "Java学习路线.canvas",
-    "CLAUDE.md",
     "美好人生运营指南 6个问题.md",
     "规划 - resist.md",
     "地中海饮食油管结构图.canvas",
@@ -263,12 +263,10 @@
     "计算机视觉学习_/步骤.md",
     "英语学习/数据分析.md",
     "英语学习/程序员必须会的英语单词.md",
-    "英语学习/英语单词.md",
     "Flask Mega-Tutorial/Flask博客项目架构.canvas",
     "C语言学习文档/判断1-100质数统计_简单版.c",
     "C语言学习文档/判断1-100质数统计_筛法版.c",
     "C语言学习文档/判断1-100质数统计_教学版.c",
-    "C语言学习文档/判断1-100质数统计.c",
     "C语言学习文档/C语言学习路线.canvas",
     "读书笔记/assets/认知觉醒 - (心态中的平衡) - 想与做/file-20260715220424884.png",
     "Flask博客项目架构.canvas",
