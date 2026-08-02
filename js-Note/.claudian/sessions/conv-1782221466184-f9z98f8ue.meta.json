@@ -4,8 +4,8 @@
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1782221466184,
-  "updatedAt": 1785656122647,
-  "lastResponseAt": 1785656122647,
+  "updatedAt": 1785656300926,
+  "lastResponseAt": 1785656300926,
   "sessionId": "befe4563-b079-4c83-a59f-c2680826122c",
   "selectedModel": "claude-code/mimo-v2.5",
   "providerState": {
@@ -13,12 +13,12 @@
   },
   "usage": {
     "model": "mimo-v2.5",
-    "inputTokens": 922,
+    "inputTokens": 721,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 104128,
+    "cacheReadInputTokens": 107776,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 105050,
-    "percentage": 53
+    "contextTokens": 108497,
+    "percentage": 54
   }
 }
