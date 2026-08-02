@@ -4,21 +4,22 @@
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1782221466184,
-  "updatedAt": 1785647219376,
-  "lastResponseAt": 1785647219376,
+  "updatedAt": 1785655117543,
+  "lastResponseAt": 1785655117543,
   "sessionId": "befe4563-b079-4c83-a59f-c2680826122c",
+  "selectedModel": "claude-code/mimo-v2.5",
   "providerState": {
     "providerSessionId": "befe4563-b079-4c83-a59f-c2680826122c"
   },
   "currentNote": "英语学习/Linux采访.md",
   "usage": {
     "model": "mimo-v2.5",
-    "inputTokens": 738,
+    "inputTokens": 383,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 73920,
+    "cacheReadInputTokens": 102656,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 74658,
-    "percentage": 37
+    "contextTokens": 103039,
+    "percentage": 52
   }
 }
