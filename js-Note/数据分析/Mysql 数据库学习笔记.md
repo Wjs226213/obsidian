@@ -98,6 +98,11 @@ sudo systemctl status mysql
 sudo systemctl restart mysql
 ```
 
----
-
-## 二、
+### 数据库连接
+```bash
+mysql -h127.0.0.1 -P3306 -uroot -p123456
+# host
+# port
+# user
+#password
+```
