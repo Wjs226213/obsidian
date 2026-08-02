@@ -56,7 +56,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "书签"
             }
@@ -81,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 200
   },
   "right": {
     "id": "2ce654096809d765",
@@ -228,7 +231,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2dd1e74f6ef274bd",
+  "active": "239ececdc7c1566f",
   "lastOpenFiles": [
     "计算机视觉学习_/opencv系列/CNRPark 停车场数据集.md",
     "CLAUDE.md",
