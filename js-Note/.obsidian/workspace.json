@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "2ce654096809d765",
@@ -234,10 +233,12 @@
   "active": "26a192e203425998",
   "lastOpenFiles": [
     "Linux 入门学习指南.md",
+    "导航栏.md",
+    "英语学习/Linux采访.md",
+    "Linux自动化学习路线.md",
+    "day2常见的linux命令.md",
     "day01_运维基本导论与Linux系统部署.md",
     "网络协议.md",
-    "导航栏.md",
-    "day2常见的linux命令.md",
     "英语学习/Linux采访.md.tmp.1816.4f53ada276b0",
     "运维课程.md",
     "英语单词.md",
@@ -245,7 +246,6 @@
     "CLAUDE.md",
     "CLAUDE.md.tmp.1816.69c3f9466dcc",
     "英语学习/考研英语学习短文.md",
-    "英语学习/Linux采访.md",
     "英语学习/linux 采访中音对照版本.md",
     "日记模板/2026年7月29日.md",
     "日记模板/好久内有写日记了现在是2026年7月15日.md",
