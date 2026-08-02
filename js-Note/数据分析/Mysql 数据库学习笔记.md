@@ -134,7 +134,7 @@ SHOW CREATE DATABASE mydb;
 
 ### 3.4 修改数据库字符集
 
-l;kl;.ZA```sql
+l;kl;.ZA   ```sql
 ALTER DATABASE mydb CHARACTER SET utf8mb4;
 ```
 
