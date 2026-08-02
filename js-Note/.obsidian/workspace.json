@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "2ce654096809d765",
@@ -227,7 +228,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2dd1e74f6ef274bd",
+  "active": "23a6c566ba70f5e4",
   "lastOpenFiles": [
     "运维知识点/day2常见的linux命令.md",
     "运维知识点/Linux 入门学习指南.md",
