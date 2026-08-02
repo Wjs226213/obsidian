@@ -1,8 +1,4 @@
-# MySQL 数据库学习笔记
-
----
-
-## 一、配置阶段（Linux 手动安装 MySQL 8.x）
+# 一、配置阶段（Linux 手动安装 MySQL 8.x）
 
 > 在 Linux 服务器上手动完成 MySQL 的安装和初次配置。
 
@@ -106,3 +102,6 @@ mysql -h127.0.0.1 -P3306 -uroot -p123456
 # user
 #password
 ```
+
+
+# 
