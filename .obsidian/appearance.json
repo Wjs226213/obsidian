@@ -2,5 +2,6 @@
   "theme": "moonstone",
   "accentColor": "#6345b5",
   "cssTheme": "Rose Pine",
-  "showRibbon": false
+  "showRibbon": true,
+  "nativeMenus": true
 }

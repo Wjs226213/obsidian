@@ -4,21 +4,24 @@
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1782221466184,
-  "updatedAt": 1785659877181,
-  "lastResponseAt": 1785659877181,
-  "sessionId": "befe4563-b079-4c83-a59f-c2680826122c",
+  "updatedAt": 1785754991424,
+  "lastResponseAt": 1785754991424,
+  "sessionId": "d8afc7ef-8f2c-4824-b7f4-d6f3e408658a",
   "selectedModel": "claude-code/mimo-v2.5",
   "providerState": {
-    "providerSessionId": "befe4563-b079-4c83-a59f-c2680826122c"
+    "previousProviderSessionIds": [
+      "befe4563-b079-4c83-a59f-c2680826122c"
+    ],
+    "providerSessionId": "d8afc7ef-8f2c-4824-b7f4-d6f3e408658a"
   },
   "usage": {
     "model": "mimo-v2.5",
-    "inputTokens": 1516,
+    "inputTokens": 184,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 112704,
+    "cacheReadInputTokens": 64704,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 114220,
-    "percentage": 57
+    "contextTokens": 64888,
+    "percentage": 32
   }
 }

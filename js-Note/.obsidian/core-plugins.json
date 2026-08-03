@@ -14,10 +14,10 @@
   "templates": true,
   "note-composer": true,
   "command-palette": true,
-  "slash-command": true,
+  "slash-command": false,
   "editor-status": true,
   "bookmarks": true,
-  "markdown-importer": true,
+  "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
   "outline": true,
@@ -29,5 +29,5 @@
   "publish": false,
   "sync": true,
   "bases": true,
-  "webviewer": true
+  "webviewer": false
 }
