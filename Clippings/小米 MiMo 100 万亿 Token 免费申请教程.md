@@ -1,13 +1,6 @@
 ---
-title: "小米 MiMo 100 万亿 Token 免费申请教程"
-published:
-source: "https://zhuanlan.zhihu.com/p/2032873993833821662"
-author:
-  - "[[纳思稻壳]]"
-description: "小米 MiMo 正在免费发放 100 万亿 Token，申请制，5 月 28 日截止。这篇文章手把手讲清楚每个字段怎么填，让你把额度拿到最高档。 01 活动信息30 天内发放 100 万亿 Token，审核通过后最高可获得 Max 档位 Token P…"
-description:
-tags:
-  - "clippings"
+title: 小米 MiMo 100 万亿 Token 免费申请教程
+评分: 满分
 ---
 50 人赞同了该文章
 
