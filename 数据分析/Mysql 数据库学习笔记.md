@@ -340,4 +340,173 @@ ALTER TABLE 表名 MODIFY 字段名 新类型;
 ALTER TABLE 表名 CHANGE 旧字段名 新字段名 新类型;
 ALTER TABLE 表名 DROP 字段名;
 ```
-# 
+
+---
+
+## 八、DML 语句 — 添加表数据
+
+### 8.1 插入单行数据
+
+```sql
+-- 指定字段插入（推荐，顺序清晰）
+INSERT INTO student (name, age, gender, score)
+VALUES ('张三', 20, '男', 88.50);
+
+-- 全字段插入（不写字段名，值必须和表结构顺序一一对应）
+INSERT INTO student
+VALUES (NULL, '李四', 22, '女', 92.00);
+```
+
+> `id` 是自增主键，插入时用 `NULL` 占位即可。
+
+### 8.2 批量插入
+
+```sql
+INSERT INTO student (name, age, gender, score)
+VALUES
+    ('王五', 19, '男', 76.00),
+    ('赵六', 21, '女', 85.50),
+    ('钱七', 23, '男', 91.00);
+```
+
+### 8.3 插入所有字段（简化写法）
+
+```sql
+INSERT INTO student VALUES
+    (NULL, '孙八', 20, '男', 78.00),
+    (NULL, '周九', 22, '女', 95.00);
+```
+
+### 8.4 INSERT INTO ... SELECT（从查询结果插入）
+
+```sql
+-- 把 student 表中年龄 > 20 的数据插入到 student_backup 表
+INSERT INTO student_backup
+SELECT * FROM student WHERE age > 20;
+```
+
+> 要求两张表字段类型和数量一致。
+
+---
+
+## 九、DML 语句 — 修改和删除表数据
+
+### 9.1 修改数据 UPDATE
+
+```sql
+-- 修改单个字段
+UPDATE student SET score = 90.00 WHERE name = '张三';
+
+-- 同时修改多个字段
+UPDATE student SET age = 21, score = 95.00 WHERE name = '张三';
+
+-- 修改所有行（不加 WHERE 会改全表！）
+UPDATE student SET score = 0;
+```
+
+> ⚠️ `UPDATE` 不加 `WHERE` 是最常见的事故之一，执行前先用 `SELECT` 确认条件。
+
+### 9.2 删除数据 DELETE
+
+```sql
+-- 按条件删除
+DELETE FROM student WHERE name = '李四';
+
+-- 删除所有数据（逐行删，事务日志会记录每一行）
+DELETE FROM student;
+```
+
+### 9.3 DELETE vs TRUNCATE
+
+| 对比项 | `DELETE FROM` | `TRUNCATE TABLE` |
+|--------|--------------|-----------------|
+| 类型 | DML（数据操作） | DDL（数据定义） |
+| WHERE | 支持 | 不支持，只能全删 |
+| 速度 | 慢（逐行删除） | 快（直接释放数据页） |
+| 自增 ID | 不重置，接着上一次的值 | 重置为 1 |
+| 事务回滚 | 可以回滚 | 不可回滚 |
+| 返回值 | 返回删除的行数 | 通常返回 0 |
+
+```sql
+-- DELETE：逐行删，自增 ID 不重置
+DELETE FROM student;
+INSERT INTO student (name, age, gender, score) VALUES ('测试', 20, '男', 80);
+SELECT id FROM student;  -- id 不会是 1
+
+-- TRUNCATE：直接清空，自增 ID 重置
+TRUNCATE TABLE student;
+INSERT INTO student (name, age, gender, score) VALUES ('测试', 20, '男', 80);
+SELECT id FROM student;  -- id = 1
+```
+
+### 9.4 DROP、TRUNCATE、DELETE 总结
+
+| 操作 | 删除内容 | 删除结构 | 可回滚 | 速度 |
+|------|---------|---------|--------|------|
+| `DROP TABLE` | 表数据 + 表结构 | ✅ 一起删 | ❌ | 最快 |
+| `TRUNCATE TABLE` | 表数据 | ❌ 保留表 | ❌ | 快 |
+| `DELETE FROM` | 表数据 | ❌ 保留表 | ✅ | 慢 |
+
+---
+
+## 十、扩展 — 备份表数据
+
+### 10.1 备份整张表（CREATE TABLE ... SELECT）
+
+```sql
+-- 创建新表并复制数据
+CREATE TABLE student_backup AS
+SELECT * FROM student;
+```
+
+> 只复制数据和字段类型，不会复制索引、约束、注释。
+
+### 10.2 备份结构（不复制数据）
+
+```sql
+CREATE TABLE student_empty AS
+SELECT * FROM student WHERE 1 = 0;
+```
+
+> `WHERE 1 = 0` 永远为假，只建表不插入数据。
+
+### 10.3 备份部分数据
+
+```sql
+-- 只备份成绩 > 80 的学生
+CREATE TABLE student_top AS
+SELECT name, score FROM student WHERE score > 80;
+```
+
+### 10.4 INSERT INTO ... SELECT（备份到已有表）
+
+```sql
+-- 目标表已存在，追加数据
+INSERT INTO student_backup
+SELECT * FROM student WHERE age > 20;
+```
+
+---
+
+## 十一、DML 速查表
+
+```sql
+-- 添加数据
+INSERT INTO 表名 (字段1, 字段2) VALUES (值1, 值2);
+INSERT INTO 表名 VALUES (值1, 值2, ...);          -- 全字段
+INSERT INTO 表名 VALUES (值1, 值2), (值3, 值4);    -- 批量
+
+-- 修改数据
+UPDATE 表名 SET 字段 = 值 WHERE 条件;
+UPDATE 表名 SET 字段1 = 值1, 字段2 = 值2 WHERE 条件;
+
+-- 删除数据
+DELETE FROM 表名 WHERE 条件;
+DELETE FROM 表名;           -- 删除全部
+TRUNCATE TABLE 表名;        -- 清空（更快，自增重置）
+
+-- 备份
+CREATE TABLE 新表 AS SELECT * FROM 旧表;           -- 全量备份
+CREATE TABLE 新表 AS SELECT * FROM 旧表 WHERE 条件; -- 部分备份
+CREATE TABLE 新表 AS SELECT * FROM 旧表 WHERE 1=0;  -- 只备份结构
+```
