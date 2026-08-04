@@ -340,3 +340,4 @@ ALTER TABLE 表名 MODIFY 字段名 新类型;
 ALTER TABLE 表名 CHANGE 旧字段名 新字段名 新类型;
 ALTER TABLE 表名 DROP 字段名;
 ```
+# 
