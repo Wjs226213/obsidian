@@ -168,7 +168,7 @@ SHOW TABLES;
 
 ```sql
 CREATE TABLE student (
-    id      INT         PRIMARY KEY AUTO_INCREMENT,
+    id      INT    PRIMARY KEY AUTO_INCREMENT,
     name    VARCHAR(20) NOT NULL,
     age     INT,
     gender  CHAR(1)     DEFAULT '男',
