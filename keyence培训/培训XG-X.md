@@ -37,3 +37,6 @@ xy比率是什么
 ![](assets/培训XG-X/file-20260805101212690.png)
 
 ![](assets/培训XG-X/file-20260805101413738.png)
+
+NG:出现的情况
+![](assets/培训XG-X/file-20260805101601078.png)
