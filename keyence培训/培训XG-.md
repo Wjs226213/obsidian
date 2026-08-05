@@ -88,3 +88,8 @@ NG:出现的情况
 在针脚过多的目标物体中进行检测,打光可能会出现漫反射的情况
 *解决方案: 光晕过滤器
 ![](assets/培训XG-/file-20260805105955657.png)
+5的效果太强可能会给需要的反射光去除
+<span style="color:rgb(0, 0, 0)">![](assets/培训XG-/file-20260805110058655.png<span style="color:rgb(0, 0, 0)">)</span></span> 
+
+
+![](assets/培训XG-/file-20260805110225651.png)
