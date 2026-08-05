@@ -45,3 +45,6 @@ NG:出现的情况
 ![](assets/培训XG-X/file-20260805101708416.png)
 
 ![](assets/培训XG-X/file-20260805101851010.png)
+
+
+![](assets/培训XG-X/file-20260805102016970.png)
