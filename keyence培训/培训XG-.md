@@ -63,4 +63,9 @@ NG:出现的情况
 ![](assets/培训XG-/file-20260805103055136.png)
 
 
+
+
 ![](assets/培训XG-/file-20260805103211943.png)
+
+## 图片拍摄清晰设定
+* 没有正确<span style="color:rgb(255, 255, 0)">图片</span> 
