@@ -29,6 +29,7 @@ xy比率是什么
 基本图片的注册
 ![](assets/培训XG-X/file-20260805100500494.png)
 
+![](assets/培训XG-X/file-20260805101448499.png)
 
 ![](assets/培训XG-X/file-20260805101042087.png)
 
