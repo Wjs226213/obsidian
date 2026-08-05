@@ -124,3 +124,15 @@ NG:出现的情况
 ![](assets/培训XG-/file-20260805112111599.png)
 
 ![](assets/培训XG-/file-20260805112155472.png) 
+![](assets/培训XG-/file-20260805112344354.png)
+
+![](assets/培训XG-/file-20260805112359783.png)
+
+![](assets/培训XG-/file-20260805112504083.png)
+
+
+![](assets/培训XG-/file-20260805112532079.png)
+
+
+![](assets/培训XG-/file-20260805112603845.png)
+
