@@ -32,4 +32,7 @@ xy比率是什么
 
 ![](assets/培训XG-X/file-20260805101042087.png)
 
+
 ![](assets/培训XG-X/file-20260805101212690.png)
+
+![](assets/培训XG-X/file-20260805101413738.png)
