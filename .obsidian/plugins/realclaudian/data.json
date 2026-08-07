@@ -4,6 +4,11 @@
       {
         "tabId": "tab-1782221462593-rsql4lf",
         "conversationId": "conv-1782221466184-f9z98f8ue"
+      },
+      {
+        "draftModel": "claude-code/mimo-v2.5",
+        "tabId": "tab-1786093529250-a4c3eye",
+        "conversationId": null
       }
     ],
     "activeTabId": "tab-1782221462593-rsql4lf"
