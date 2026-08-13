@@ -1,0 +1,25 @@
+{
+  "id": "conv-1786584677072-c7aexm2r3",
+  "providerId": "claude",
+  "title": "当前页面的笔记的同一目录下给我生成一个计划清单",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1786584677073,
+  "updatedAt": 1786584685137,
+  "lastResponseAt": 1786584684617,
+  "sessionId": "c1ef6de2-dd88-4dc5-9eaf-420da8ae619b",
+  "selectedModel": "claude-code/mimo-v2.5",
+  "providerState": {
+    "providerSessionId": "c1ef6de2-dd88-4dc5-9eaf-420da8ae619b"
+  },
+  "currentNote": "keyence培训/数据分析结合XG-X.md",
+  "usage": {
+    "model": "mimo-v2.5",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
