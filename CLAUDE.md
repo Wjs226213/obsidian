@@ -9,20 +9,21 @@
 - **姓名**: 王嘉硕
 - **学历**: 专科（人工智能技术应用专业）
 - **求职方向**: DP 岗位 / 计算机视觉相关工程师
-- **使用软件**: LJ-X（配合博众软件）
+- **使用软件**: XG-X（基恩士系列软件）
 
 ---
 
 ## 🛠️ 技术栈
 
-| 领域 | 技术 |
-|------|------|
-| **编程语言** | Python, C, Java |
-| **数据库** | MySQL, Linux |
-| **深度学习框架** | PyTorch, TensorFlow |
-| **计算机视觉** | OpenCV, YOLO, MediaPipe, Tesseract OCR |
-| **Web 开发** | Flask (Mega-Tutorial 23 章全部完成) |
-| **数据分析** | Pandas |
+| 领域         | 技术                                     |
+| ---------- | -------------------------------------- |
+| **编程语言**   | Python, C, Java                        |
+| **数据库**    | MySQL, Linux                           |
+| **深度学习框架** | PyTorch, TensorFlow                    |
+| **计算机视觉**  | OpenCV, YOLO, MediaPipe, Tesseract OCR |
+| **Web 开发** | Flask (Mega-Tutorial 23 章全部完成)         |
+| **数据分析**   | Pandas,Excel,matplotlib,numpy          |
+|            |                                        |
 
 ---
 
