@@ -4,22 +4,21 @@
   "title": "当前页面的笔记的同一目录下给我生成一个计划清单",
   "titleGenerationStatus": "failed",
   "createdAt": 1786584677073,
-  "updatedAt": 1786584685137,
-  "lastResponseAt": 1786584684617,
+  "updatedAt": 1787724080666,
+  "lastResponseAt": 1787724080666,
   "sessionId": "c1ef6de2-dd88-4dc5-9eaf-420da8ae619b",
   "selectedModel": "claude-code/mimo-v2.5",
   "providerState": {
     "providerSessionId": "c1ef6de2-dd88-4dc5-9eaf-420da8ae619b"
   },
-  "currentNote": "keyence培训/数据分析结合XG-X.md",
   "usage": {
     "model": "mimo-v2.5",
-    "inputTokens": 0,
+    "inputTokens": 14240,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
+    "cacheReadInputTokens": 16384,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 0,
-    "percentage": 0
+    "contextTokens": 30624,
+    "percentage": 15
   }
 }
