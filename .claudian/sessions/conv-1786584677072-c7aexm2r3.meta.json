@@ -4,8 +4,8 @@
   "title": "当前页面的笔记的同一目录下给我生成一个计划清单",
   "titleGenerationStatus": "failed",
   "createdAt": 1786584677073,
-  "updatedAt": 1787724080666,
-  "lastResponseAt": 1787724080666,
+  "updatedAt": 1787724573107,
+  "lastResponseAt": 1787724573107,
   "sessionId": "c1ef6de2-dd88-4dc5-9eaf-420da8ae619b",
   "selectedModel": "claude-code/mimo-v2.5",
   "providerState": {
@@ -13,12 +13,12 @@
   },
   "usage": {
     "model": "mimo-v2.5",
-    "inputTokens": 14240,
+    "inputTokens": 1113,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 16384,
+    "cacheReadInputTokens": 35904,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 30624,
-    "percentage": 15
+    "contextTokens": 37017,
+    "percentage": 19
   }
 }
