@@ -1,7 +1,7 @@
 {
   "theme": "moonstone",
   "accentColor": "#6345b5",
-  "cssTheme": "Rose Pine",
+  "cssTheme": "",
   "showRibbon": true,
   "nativeMenus": true
 }
